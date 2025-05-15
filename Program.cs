@@ -6,6 +6,13 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Correctly instantiate the TekstUtvikling class and call the StartEndringer method
+        TekstUtvikling tekstUtvikling = new TekstUtvikling();
+        tekstUtvikling.StartEndringer(); Krokodillespillet.Play();
+
+
+        Krokodillespillet.Play();
+
         // 1. Lag en for-løkke som printer "Terje er kul" til konsollen 5 ganger
         Console.WriteLine("Dette er oppgave 1!!!");
         for (int i = 0; i < 5; i++) 
