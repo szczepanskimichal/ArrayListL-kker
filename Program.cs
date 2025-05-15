@@ -8,10 +8,10 @@ class Program
     {
         // Correctly instantiate the TekstUtvikling class and call the StartEndringer method
         TekstUtvikling tekstUtvikling = new TekstUtvikling();
-        tekstUtvikling.StartEndringer(); Krokodillespillet.Play();
+        tekstUtvikling.StartEndringer(); 
 
 
-        Krokodillespillet.Play();
+       /* Krokodillespillet.Play();
 
         // 1. Lag en for-løkke som printer "Terje er kul" til konsollen 5 ganger
         Console.WriteLine("Dette er oppgave 1!!!");
@@ -40,6 +40,6 @@ class Program
             Console.WriteLine("Runde"+ runde);
             runde++;
         }
-        Console.WriteLine("\n Ferdig");
+        Console.WriteLine("\n Ferdig");*/
     }
 }
